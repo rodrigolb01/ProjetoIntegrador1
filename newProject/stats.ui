@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Stats</class>
+ <widget class="QDialog" name="Stats">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>385</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>388</width>
+      <height>424</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <property name="spacing">
+      <number>5</number>
+     </property>
+     <item row="4" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_9">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_losedLv5">
+       <property name="text">
+        <string>total losed in Lv5:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_losedLv1">
+       <property name="text">
+        <string>total losed in Lv1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_losedLv6">
+       <property name="text">
+        <string>total losed in Lv6:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_5">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QPushButton" name="pushButton_back">
+       <property name="text">
+        <string>back</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_5">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_losedLv9">
+       <property name="text">
+        <string>total losed in Lv9:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_losedLv4">
+       <property name="text">
+        <string>total losed in Lv4:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QLabel" name="label_stdDev">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="label_pCampaign">
+       <property name="text">
+        <string>total played in campaign:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QLabel" name="label_maxScore_10">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4" colspan="2">
+      <widget class="QLabel" name="label_username">
+       <property name="text">
+        <string>None</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="10">
+      <widget class="QScrollBar" name="verticalScrollBar">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_4">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label_median">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLabel" name="label_confidence">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_3">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_3">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Variance:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_8">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_6">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_losedLv7">
+       <property name="text">
+        <string>total losed in Lv7:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="label_mean">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_9">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_4">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>confidence interv:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" colspan="3">
+      <widget class="QLabel" name="played_campaign">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QLabel" name="played_survival">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Sample mean:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_losedLv8">
+       <property name="text">
+        <string>total losed in Lv8:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_4">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_7">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="label_variance">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7" colspan="2">
+      <widget class="QLabel" name="label_pSurvival">
+       <property name="text">
+        <string>total played in survival:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_8">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc_9">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_8">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_losedLv3">
+       <property name="text">
+        <string>total losed in Lv3:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Median:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5" colspan="2">
+      <widget class="QLabel" name="label_maxSc">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_7">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_losedLv2">
+       <property name="text">
+        <string>total losed in Lv2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>proportion:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_5">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_3">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_7">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="8">
+      <widget class="QLabel" name="label_maxSc_10">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Std deviation:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="3">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Stats of the player</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLabel" name="label_proportion">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1" colspan="2">
+      <widget class="QLabel" name="label_lose_lv_6">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_6">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3" colspan="2">
+      <widget class="QLabel" name="label_maxScore_2">
+       <property name="text">
+        <string>maxScore:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_email">
+       <property name="text">
+        <string>none</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
